@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 4rem;
+}
+header{
+    background-color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+#headerall {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+#headerall .left{
+    width: 20%;
+}
+#headerall .left h3{
+    color: #373737;
+    padding-left: 3rem;
+    white-space: nowrap;
+}
+
+
+#headerall .right{
+    width: 100%;
+    text-align: left
+}
+#headerall .right a{
+    color: #151515;
+    font-size: 20px;
+    margin-left: 26px;
+}
+#headerall .right i{
+    font-size: 20px;
+    margin-left: 22px;
+}
+#vergi{
+    padding: 3rem 0;
+    width: 100%;
+    background-color: #FBFBFB;
+}
+#vergi .vergi-all{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+#vergi .vergi-all .vergi-left{
+    margin-top: 5rem;
+    width: 68%;
+}
+#vergi .vergi-all .vergi-left img{
+    width: 100%;
+    border-radius: 5px;
+    height: 80%;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+#vergi .vergi-all .vergi-right{
+    margin-top: 5rem;
+    width: 30%;
+    margin-left: 12px;
+}
+#vergi .vergi-all .vergi-right .first{
+    width: 100%;
+    background-color: #69acf1;
+    padding: 35px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+#vergi .vergi-all .vergi-right .first a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+#vergi .vergi-all .vergi-right .second{
+    width: 100%;
+    background-color: #0ec4a3;
+    padding: 35px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+#vergi .vergi-all .vergi-right .second a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+#vergi .vergi-all .vergi-right .third{
+    color: #212529;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FFFFFF;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #37373746;
+}
+#vergi .vergi-all .vergi-right .third img{
+    font-size: 16px;
+    padding: 0 15px;
+    margin: 4px 0;
+}
+#vergi .vergi-all .vergi-right .third .text p{
+    color: #303030;
+    font-size: 16px;
+}
+#vergi .vergi-all .vergi-right .third .text .bottom {
+    color: #303030;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+#Axtais{
+    background-color: #0ec4a3;
+    padding: 2rem 2px;
+}
+#Axtais .all h2{
+    font-size: 20px;
+    color: #4E4E4E;;
+    margin-bottom: 12px;
+    margin-bottom: 1.5rem;
+}
+#Axtais .all .left{
+    margin-bottom: 3.5rem;
+    padding-top: 1rem;
+}
+#Axtais .box{
+    display: flex;
+    justify-content: space-between;
+}
+#Axtais .all .left a{
+    width: 50%;
+    margin: 0px 0px 15px;
+    padding: 30px;
+    border: 1px solid rebeccapurple;
+    color: #4E4E4E;
+    background-color: #fff;
+}
+#Axtais .all h1{
+    margin-left: 50rem;
+    font-size: 20px;
+    color: #4E4E4E;;
+    margin-bottom: 12px;
+    margin-bottom: 1.5rem;
+}
